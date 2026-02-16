@@ -1,0 +1,18 @@
+SELECT
+a.id account_id,
+s.date AS account_creat_date,
+DATE_ADD(s.date, INTERVAL ev.visit_date day) AS visit_date
+FROM
+`DA.account` a
+JOIN
+`DA.account_session` acs
+ON
+a.id = acs.account_id
+JOIN
+`DA.session` s
+ON
+s.ga_session_id = acs.ga_session_id
+LEFT JOIN
+`DA.email_visit` ev
+ON
+ev.id_account = a.id
