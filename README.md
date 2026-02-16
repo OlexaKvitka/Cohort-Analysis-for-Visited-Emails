@@ -25,11 +25,11 @@ LEFT JOIN
 ON
 ev.id_account = a.id
 
-2. Based on this dataset, create a cohort analysis in Tableau. On the X axis, display the number of weeks that have passed since the creation of the account in the system, and on the Y axis –, cohorts formed by the weeks of creation of the accounts.
+2.Based on this dataset, create a cohort analysis in Tableau. On the X axis, display the number of weeks that have passed since the creation of the account in the system, and on the Y axis –, cohorts formed by the weeks of creation of the accounts.
  It is also necessary to show the percentage of accounts created in a specific week that open letters during a certain period of their existence in the system.
 
 ## Deliverables  
--  Interactive Tableau Dashboard: https://public.tableau.com/app/profile/olexandra.kvasnevska/viz/CustomerRetentionCohortAnalysis_17704900692100/Dashboard1
+- Interactive Tableau Dashboard: https://public.tableau.com/app/profile/olexandra.kvasnevska/viz/CustomerRetentionCohortAnalysis_17704900692100/Dashboard1
 
 ## Tableau Public Dashboard Preview:
 ![Tableau Dashboard Performance](https://github.com/OlexaKvitka/Cohort-Analysis-for-Visited-Emails/blob/main/Customer%20Retention%20Cohort%20Analysis.PNG)
@@ -78,7 +78,8 @@ The heatmap shows a "Never Opened" column, representing users who created accoun
 
 ## RECOMMENDATIONS
 
-IMMEDIATE ACTIONS (Week 1-2 Implementation):
+**IMMEDIATE ACTIONS (Week 1-2 Implementation):**
+
 Priority 1: Week 0-1 Intervention Campaign
 +Trigger automated email sequence on days 2, 4, and 6 post-signup.
 +Focus on education and quick wins rather than promotional content
@@ -91,7 +92,8 @@ Priority 2: Segment-Specific Messaging
 +Create distinct email tracks based on signup source or user behavior.
 
 
-SHORT-TERM IMPROVEMENTS (Month 1-2)
+**SHORT-TERM IMPROVEMENTS (Month 1-2)**
+
 1. Signup Quality Optimization
 +Audit acquisition channels contributing to "Never Opened" segment
 +Add expectation-setting during signup (frequency, content type)
@@ -101,7 +103,7 @@ SHORT-TERM IMPROVEMENTS (Month 1-2)
 +Offer incentive or value-add content
 +Test "we miss you" messaging vs. feature highlights
 
-LONG-TERM STRATEGIC INITIATIVES (Quarter 1-2)
+**LONG-TERM STRATEGIC INITIATIVES (Quarter 1-2)**
 1. Comprehensive Onboarding Redesign
 +Map user journey from signup through first value realization
 +Identify and eliminate friction points
@@ -119,10 +121,12 @@ LONG-TERM STRATEGIC INITIATIVES (Quarter 1-2)
 +Don't rely solely on email for retention
 Create community or social engagement opportunities.
 
-POTENTIAL GAMECHANGER:  CRM Integration Opportunity:
+## POTENTIAL GAMECHANGER:  CRM Integration Opportunity:
+
 Automated Early Warning System: Implement CRM workflows that automatically flag at-risk accounts based on disengagement signals:
-No email opens within 48 hours post-signup
-No product login within 3 days
-Zero click-through activity in first week
-This enables sales or customer success teams to proactively reach out with personalized onboarding assistance, potentially recovering at-risk accounts before they churn.
+
+-No email opens within 48 hours post-signup
+-No product login within 3 days
+-Zero click-through activity in first week
+-This enables sales or customer success teams to proactively reach out with personalized onboarding assistance, potentially recovering at-risk accounts before they churn.
 
