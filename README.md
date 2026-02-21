@@ -29,7 +29,7 @@ ev.id_account = a.id
  It is also necessary to show the percentage of accounts created in a specific week that open letters during a certain period of their existence in the system.
 
 ## Deliverables  
-- Interactive Tableau Dashboard: https://public.tableau.com/app/profile/olexandra.kvasnevska/viz/CustomerRetentionCohortAnalysis_17704900692100/Dashboard1
+- [Interactive Tableau Dashboard:](https://public.tableau.com/app/profile/olexandra.kvasnevska/viz/CustomerRetentionCohortAnalysis_17704900692100/Dashboard1)
 
 ## Tableau Public Dashboard Preview:
 ![Tableau Dashboard Performance](https://github.com/OlexaKvitka/Cohort-Analysis-for-Visited-Emails/blob/main/Customer%20Retention%20Cohort%20Analysis.PNG)
